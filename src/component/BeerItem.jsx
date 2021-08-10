@@ -34,9 +34,9 @@ export default function BeerItem({data}) {
             <InnerImg src={data.image_url} alt={data.name}/>
           </InnerImgBox>
           <InnerRright>
-            <Table>
+            <Table  >
               <Tr>
-                <Td>id </Td>
+                <Td showModal={showModal}>id </Td>
                 <Td>{data.id}</Td>
               </Tr>
               <Tr>
@@ -115,7 +115,6 @@ export default function BeerItem({data}) {
           </InnerRright>
         </InnerModal>
       </Modal>
-        
     </>
   )
 }
@@ -161,6 +160,7 @@ const Table = styled.table`
 const Tr = styled.tr`
 `
 const Td = styled.td`
+
   border: 1px solid;
   text-align: left;
   padding: 5px 15px;
@@ -168,5 +168,7 @@ const Td = styled.td`
   &:first-child{
     width: 160px;
     font-size: 18px;
+
+  
 }
 `

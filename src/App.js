@@ -26,7 +26,7 @@ function App() {
       <Switch>
           <Head/>
       </Switch>
-      <Route path='/home' component={Main} />
+      <Route exact path='/home' component={Main} />
       <Route path='/beerlist' component={BeerList} />
     </BrowserRouter>
   );
