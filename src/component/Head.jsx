@@ -6,11 +6,11 @@ export default function Head() {
     <>
       <Wrapper>
         <Header>
-          <Link to='/beerlist/home'>
+          <Link to='/home'>
             <Logo />
           </Link>
           <Menu>
-            <Link to='/beerlist/list'>
+            <Link to='/list'>
               <BeerList>BEER LIST</BeerList>
             </Link>
             <Login>LOGIN</Login>
@@ -36,7 +36,7 @@ const Header = styled.div`
 const Logo = styled.div`
   width: 300px;
   height: 100px;
-  background: url(img/logo.png);
+  background: url(home/img/logo.png);
 `
 const Menu = styled.div`
   display: flex;
