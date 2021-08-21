@@ -3,9 +3,7 @@ import styled from 'styled-components'
 export default function Main() {
   return (
     <>
-      <MainImg >
-        TRY NEW BEERS
-      </MainImg>
+      <MainImg />
     </>
   )
 }
@@ -17,7 +15,6 @@ const MainImg = styled.div`
   font-size: 60px;
   text-align: center;
   
-  background: url(/home/img/main_img.jpg) no-repeat center / cover;
+  background: #000 url(/home/img/main_img.jpg) no-repeat center / contain;
   color: yellow;
-  opacity:0.8;
 `
