@@ -6,7 +6,7 @@ export default function Head() {
     <>
       <Wrapper>
         <Header>
-          <Link to='/home'>
+          <Link to='/'>
             <Logo />
           </Link>
           <Menu>
@@ -36,7 +36,7 @@ const Header = styled.div`
 const Logo = styled.div`
   width: 300px;
   height: 100px;
-  background: url(home/img/logo.png);
+  background: url(img/logo.png);
 `
 const Menu = styled.div`
   display: flex;
