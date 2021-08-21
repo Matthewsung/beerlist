@@ -6,11 +6,11 @@ export default function Head() {
     <>
       <Wrapper>
         <Header>
-          <Link to='/home'>
+          <Link to='beerlist/home'>
             <Logo />
           </Link>
           <Menu>
-            <Link to='/beerlist'>
+            <Link to='beerlist/list'>
               <BeerList>BEER LIST</BeerList>
             </Link>
             <Login>LOGIN</Login>
