@@ -15,6 +15,6 @@ const MainImg = styled.div`
   font-size: 60px;
   text-align: center;
   
-  background: #000 url(/home/img/main_img.jpg) no-repeat center / contain;
+  background: #000 url(img/main_img.jpg) no-repeat center / contain;
   color: yellow;
 `

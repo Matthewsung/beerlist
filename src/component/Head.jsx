@@ -36,7 +36,7 @@ const Header = styled.div`
 const Logo = styled.div`
   width: 300px;
   height: 100px;
-  background: url(home/img/logo.png);
+  background: url(img/logo.png);
 `
 const Menu = styled.div`
   display: flex;
