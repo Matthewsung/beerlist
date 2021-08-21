@@ -26,8 +26,8 @@ function App() {
       <Switch>
           <Head/>
       </Switch>
-      <Route exact path='/' component={Main} />
-      <Route path='/list' component={BeerList} />
+      <Route exact path='/beerlist' component={Main} />
+      <Route path='/beerlist/list' component={BeerList} />
     </BrowserRouter>
   );
 }

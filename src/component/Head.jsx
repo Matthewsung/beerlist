@@ -6,11 +6,11 @@ export default function Head() {
     <>
       <Wrapper>
         <Header>
-          <Link to='/'>
+          <Link to='/beerlist'>
             <Logo />
           </Link>
           <Menu>
-            <Link to='/list'>
+            <Link to='/beerlist/list'>
               <BeerList>BEER LIST</BeerList>
             </Link>
             <Login>LOGIN</Login>
@@ -62,5 +62,5 @@ const Login = styled.div`
 const Cart = styled.div`
 width:100px;
 height:40px;
-  background : url(home/img/cart.png) no-repeat center ;
+  background : url(img/cart.png) no-repeat center ;
 `
